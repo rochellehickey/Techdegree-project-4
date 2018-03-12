@@ -2,3 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background: white;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
