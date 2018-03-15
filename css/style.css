@@ -4,13 +4,27 @@
 
 body {
   background: white;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
-img {
-
-}
+/*form {
+  margin: 0 auto;
+}*/
 
 .wrapper {
   width: 80%;
   margin: 0 auto;
+}
+
+.gallery-image {
+  display: inline-block;
+  margin: 30px;
+}
+
+input[type="search"] {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 300px;
 }
