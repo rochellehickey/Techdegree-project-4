@@ -57,6 +57,25 @@ input[type="search"] {
   .gallery-image:nth-of-type(odd) {
     margin-right: 6%;
   }
+
+  .lb-nav a.lb-next,
+  .lb-nav a.lb-prev {
+    opacity: 1;
+  }
+
+  .lb-nav {
+    bottom: -62px;
+    height: 50px;
+    top: auto;
+  }
+
+  .lb-data {
+    margin-top: 80px;
+  }
+
+  .lb-close {
+    top: 0;
+  }
 }
 
 @media (min-width: 548px) {
@@ -72,6 +91,17 @@ input[type="search"] {
   .gallery-image:nth-of-type(3n+2) {
     margin-right: 6%;
   }
+
+  .lb-nav {
+    bottom: auto;
+    height: 100%;
+    top: 0;
+  }
+
+  .lb-data {
+    margin-top: 0;
+  }
+
 }
 
 @media (min-width: 868px) {
